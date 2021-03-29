@@ -39,7 +39,8 @@ const displayText = () => {
     })
 };
 
-function generateText() {
+function generateText(e) {
+    e.preventDefault();
     getInput();
     displayText();
 }
